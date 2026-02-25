@@ -8,10 +8,12 @@ const  Navbar = () => {
     return(
         <div className="sticky top-0 bg-white h-14 font-primary py-2.5 flex items-center dark:bg-black">
             <div className='mr-auto lg:pl-10 pl-5 dark:hidden'>
-                <img src="src\assets\logos\blue.svg" className="h-10 dark:hidden"/>
+                <img src="src/assets/logos/wordmark/blue.svg" className="h-10 lg:hidden"/>
+                <img src="src\assets\logos\wordmark\blue_transparent_bg.svg" className="h-20 hidden lg:block"/>
             </div>
-            <div className='mr-auto lg:pl-10 pl-5 dark:block'>
-                <img src="src\assets\logos\saffron.svg" className="h-10 hidden dark:block"/>
+            <div className='mr-auto lg:pl-10 pl-5 hidden dark:block'>
+                <img src="src/assets/logos/wordmark/saffron.svg" className="h-10 lg:hidden"/>
+                <img src="src\assets\logos\wordmark\saffron_transparent_bg.svg" className="h-20 hidden lg:block"/>
             </div>
 
             <div className='hidden lg:block ml-auto lg:flex pr-10 items-center'>
