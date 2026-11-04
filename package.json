@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://nexora-tech-media.github.io/Nexora.git",
+  "homepage": "https://nexora-tech-media.github.io/Nexora",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
